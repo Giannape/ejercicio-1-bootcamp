@@ -1,4 +1,4 @@
 ﻿
-Console.WriteLine("¿como te llamas?");
-string nombre= Console.ReadLine();
-Console.WriteLine("Hola, "+nombre);
+Console.WriteLine("ingrese la hora actual: ");
+DateTime horaActual= DateTime.Now;
+Console.WriteLine("la hora actual es: "+horaActual);
